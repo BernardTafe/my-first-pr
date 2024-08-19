@@ -50,7 +50,7 @@ git remote -v
 
 3. Consider why it does not provide a URL for pull, only `push` and `fetch`?
 
----
+--- The pull-request comes from github not git.
 
 4. Push the local repository to the remote repository.
 
@@ -60,11 +60,10 @@ git remote -v
 
 5. Refresh the GitHub page for your repository. You should see this `README.md` file.
 
-### Why are pull requests called "Pull Requests"? (wrong answer)
+### Why are pull requests called "Pull Requests"? (right answer)
 
-Pull requests are so named basically because you are asking to _pull_ changes from a remote to your local repository. And that's because you have to ask permission to copy changes out of the repository, even if you have read access to that repository.
-
-<!--TODO: This answer is SO wrong, I think we need to fix it! -->
+Pull requests are so named basically because you are asking to _pull_ changes from your local repository into the main repository. And that's because you have to ask permission to write changes to the main repository.
+I just needed to make some changes 
 
 ### Create a local branch
 
@@ -89,6 +88,7 @@ git commit -am "Give correct reason to why PRs are named that"
 ```
 
 3. Check on GitHub whether the branch exists there or not. Does it? Why or why not?
+It does not yet exist on GitHub because we havent pushed our changes up yet. Or we havent made a pull request.
 4. You may think it is because you haven't pushed to the branch yet, so go ahead and try to push the branch to the remote repository.
 
 ```bash
@@ -143,3 +143,5 @@ Notice that GitHub suggests that you delete the branch after merging. This is a 
 If you are doing this in class, you can fork the repository of the person sitting next to you. If you are doing this on your own, you can fork a friend's or colleague's repository.
 
 When you fork their repo, examine their definition and try to improve on it, then create a pull request to suggest your changes on **their** repository.
+
+just trying some changes here
